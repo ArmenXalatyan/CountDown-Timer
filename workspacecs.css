@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.important strong {
+    font-size: 65px;
+}
+
+.important p {
+    font-size: 25px;
+}
+
+.holder{ 
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 175px;
+    text-align: center;
+}
+
+.set-event-date{
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 100px;  
+}
+
+.set-event-date p {
+    display: inline;
+    font-size: 20px;  
+}
+.event-date{
+    padding-right: 130px;
+    font-weight: 600;
+
+}
+
+.Date {
+    padding-right: 100px;
+    
+}
+.Date input{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.night-theme-btn{
+    border: 0;
+    position: fixed;
+    right: 50px;
+    top: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px; 
+    transition: filter .4s;
+    cursor: pointer;
+}
+
+.night-theme-btn:hover{
+    filter: brightness(50%);
+}
+
+.Countdown{
+    display: flex;
+    font-weight: 1000;
+    max-width: 100px;
+}
+
+.Timer {
+    margin: 50px;
+    padding: 0px 50px;
+    font-size: 55px;
+    min-width: 180px;
+    border-radius: 30px;
+}
+
+.Timer p {
+    font-size: 30px;
+}
+
+

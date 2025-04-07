@@ -1,0 +1,49 @@
+
+html,
+body {
+    background-color: rgb(5, 5, 32); 
+}
+.important strong {
+    color: blueviolet;
+}
+
+.important p {
+    color: rgba(225, 225, 211, 0.731);
+}
+
+.set-event-date{
+    color: white; 
+}
+
+.set-event-date p {
+    color: white;
+}
+.Date input{
+    border: none;
+}
+.night-theme-btn{
+    background-color: rgba(105, 105, 99, 0.3);
+}
+
+.night-theme-btn-moon{
+    filter: invert(1);
+}
+.Countdown{
+    color: white;
+}
+
+.Timer {
+    border: 6px solid rgba(105, 105, 99, 0.118);
+    box-shadow: 2px 2px 50px rgba(105, 105, 99, 0.118);;
+}
+input{
+    background-color: rgba(105, 105, 99, 0.118);    
+    color: white;
+}
+.change-theme[data-theme = "night"]{
+    display: none; 
+}
+.change-theme[data-theme = "light"]{
+    display: block; 
+    margin: 10px;
+}
